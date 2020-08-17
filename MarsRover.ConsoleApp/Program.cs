@@ -49,7 +49,7 @@ namespace MarsRover.ConsoleApp
 
                 Console.WriteLine("Do you want to continue ? (Y/N)");
                 var result = Console.ReadLine();
-                if (result.Equals("N"))
+                if (result.Equals("N", StringComparison.InvariantCultureIgnoreCase))
                 {
                     break;
                 }

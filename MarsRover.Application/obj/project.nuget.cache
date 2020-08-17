@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "cpMcURdCtIjMLbC+Kp3RxS1IdrD5G8l+9FXK/ans6/yQtXYqPWifRpDcpcTY6WIUVCWbZjm+JlZx4o4C9BLuIA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\SingleLanguage\\source\\repos\\MarsRover\\MarsRover.Application\\MarsRover.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\SingleLanguage\\.nuget\\packages\\fluentvalidation\\9.1.2\\fluentvalidation.9.1.2.nupkg.sha512",
+    "C:\\Users\\SingleLanguage\\.nuget\\packages\\mediatr\\8.1.0\\mediatr.8.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

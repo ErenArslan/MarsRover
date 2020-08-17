@@ -1,0 +1,13 @@
+services:
+  marsrover.consoleapp:
+    build:
+      context: C:\Users\SingleLanguage\source\repos\MarsRover
+      dockerfile: MarsRover.ConsoleApp/Dockerfile
+    image: marsroverconsoleapp
+  mongodb-category:
+    container_name: mongodb-marsrover
+    image: mongo:latest
+    ports:
+    - published: 27017
+      target: 27017
+version: '3.4'

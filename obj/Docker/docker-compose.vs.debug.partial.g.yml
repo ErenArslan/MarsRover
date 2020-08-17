@@ -1,0 +1,24 @@
+version: '3.4'
+
+services:
+  marsrover.consoleapp:
+    image: marsroverconsoleapp:dev
+    container_name: MarsRover.ConsoleApp
+    build:
+      target: base
+      labels:
+        com.microsoft.created-by: "visual-studio"
+        com.microsoft.visual-studio.project-name: "MarsRover.ConsoleApp"
+    environment:
+      - NUGET_FALLBACK_PACKAGES=
+    volumes:
+      - C:\Users\SingleLanguage\source\repos\MarsRover\MarsRover.ConsoleApp:/app
+      - C:\Users\SingleLanguage\vsdbg\vs2017u5:/remote_debugger:rw
+      - C:\Users\SingleLanguage\.nuget\packages\:/root/.nuget/packages:ro
+    entrypoint: tail -f /dev/null
+    labels:
+      com.microsoft.visualstudio.debuggee.program: "dotnet"
+      com.microsoft.visualstudio.debuggee.arguments: " --additionalProbingPath /root/.nuget/packages  \"/app/bin/Debug/netcoreapp3.1/MarsRover.ConsoleApp.dll\""
+      com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
+      com.microsoft.visualstudio.debuggee.killprogram: "/bin/sh -c \"if PID=$$(pidof dotnet); then kill $$PID; fi\""
+    tty: true

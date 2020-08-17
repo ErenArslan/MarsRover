@@ -1,0 +1,12 @@
+C:\Users\SingleLanguage\source\repos\MarsRover\MarsRover.Application\bin\Debug\netcoreapp3.1\MarsRover.Application.deps.json
+C:\Users\SingleLanguage\source\repos\MarsRover\MarsRover.Application\bin\Debug\netcoreapp3.1\MarsRover.Application.dll
+C:\Users\SingleLanguage\source\repos\MarsRover\MarsRover.Application\obj\Debug\netcoreapp3.1\MarsRover.Application.csprojAssemblyReference.cache
+C:\Users\SingleLanguage\source\repos\MarsRover\MarsRover.Application\obj\Debug\netcoreapp3.1\MarsRover.Application.AssemblyInfoInputs.cache
+C:\Users\SingleLanguage\source\repos\MarsRover\MarsRover.Application\obj\Debug\netcoreapp3.1\MarsRover.Application.AssemblyInfo.cs
+C:\Users\SingleLanguage\source\repos\MarsRover\MarsRover.Application\bin\Debug\netcoreapp3.1\MarsRover.Application.pdb
+C:\Users\SingleLanguage\source\repos\MarsRover\MarsRover.Application\bin\Debug\netcoreapp3.1\MarsRover.Core.dll
+C:\Users\SingleLanguage\source\repos\MarsRover\MarsRover.Application\bin\Debug\netcoreapp3.1\MarsRover.Core.pdb
+C:\Users\SingleLanguage\source\repos\MarsRover\MarsRover.Application\obj\Debug\netcoreapp3.1\MarsRover.Application.csproj.CoreCompileInputs.cache
+C:\Users\SingleLanguage\source\repos\MarsRover\MarsRover.Application\obj\Debug\netcoreapp3.1\MarsRover.Application.csproj.CopyComplete
+C:\Users\SingleLanguage\source\repos\MarsRover\MarsRover.Application\obj\Debug\netcoreapp3.1\MarsRover.Application.dll
+C:\Users\SingleLanguage\source\repos\MarsRover\MarsRover.Application\obj\Debug\netcoreapp3.1\MarsRover.Application.pdb

@@ -1,0 +1,213 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\SingleLanguage\\source\\repos\\MarsRover\\MarsRover.Test\\MarsRover.Test.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\SingleLanguage\\source\\repos\\MarsRover\\MarsRover.Application\\MarsRover.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\SingleLanguage\\source\\repos\\MarsRover\\MarsRover.Application\\MarsRover.Application.csproj",
+        "projectName": "MarsRover.Application",
+        "projectPath": "C:\\Users\\SingleLanguage\\source\\repos\\MarsRover\\MarsRover.Application\\MarsRover.Application.csproj",
+        "packagesPath": "C:\\Users\\SingleLanguage\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\SingleLanguage\\source\\repos\\MarsRover\\MarsRover.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\SingleLanguage\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\SingleLanguage\\source\\repos\\MarsRover\\MarsRover.Core\\MarsRover.Core.csproj": {
+                "projectPath": "C:\\Users\\SingleLanguage\\source\\repos\\MarsRover\\MarsRover.Core\\MarsRover.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\SingleLanguage\\source\\repos\\MarsRover\\MarsRover.Core\\MarsRover.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\SingleLanguage\\source\\repos\\MarsRover\\MarsRover.Core\\MarsRover.Core.csproj",
+        "projectName": "MarsRover.Core",
+        "projectPath": "C:\\Users\\SingleLanguage\\source\\repos\\MarsRover\\MarsRover.Core\\MarsRover.Core.csproj",
+        "packagesPath": "C:\\Users\\SingleLanguage\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\SingleLanguage\\source\\repos\\MarsRover\\MarsRover.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\SingleLanguage\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[9.1.2, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\SingleLanguage\\source\\repos\\MarsRover\\MarsRover.Test\\MarsRover.Test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\SingleLanguage\\source\\repos\\MarsRover\\MarsRover.Test\\MarsRover.Test.csproj",
+        "projectName": "MarsRover.Test",
+        "projectPath": "C:\\Users\\SingleLanguage\\source\\repos\\MarsRover\\MarsRover.Test\\MarsRover.Test.csproj",
+        "packagesPath": "C:\\Users\\SingleLanguage\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\SingleLanguage\\source\\repos\\MarsRover\\MarsRover.Test\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\SingleLanguage\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\SingleLanguage\\source\\repos\\MarsRover\\MarsRover.Application\\MarsRover.Application.csproj": {
+                "projectPath": "C:\\Users\\SingleLanguage\\source\\repos\\MarsRover\\MarsRover.Application\\MarsRover.Application.csproj"
+              },
+              "C:\\Users\\SingleLanguage\\source\\repos\\MarsRover\\MarsRover.Core\\MarsRover.Core.csproj": {
+                "projectPath": "C:\\Users\\SingleLanguage\\source\\repos\\MarsRover\\MarsRover.Core\\MarsRover.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.5.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.14.5, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

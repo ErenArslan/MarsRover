@@ -1,0 +1,10 @@
+version: '3.4'
+
+services:
+  
+  
+  mongodb-category:
+    image: mongo:latest
+    container_name: mongodb-marsrover
+    ports:
+      - 27017:27017 

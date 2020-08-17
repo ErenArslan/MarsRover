@@ -1,0 +1,7 @@
+services:
+  marsrover.consoleapp:
+    build:
+      context: C:\Users\SingleLanguage\source\repos\MarsRover
+      dockerfile: MarsRover.ConsoleApp/Dockerfile
+    image: marsroverconsoleapp
+version: '3.4'
